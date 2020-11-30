@@ -10,23 +10,23 @@ function Sidebar({isOpen, toggle}) {
 			</Icon>
 		<SidebarWrapper>
 			<SidebarMenu>
-				<SidebarLink to="Projects">
+				<SidebarLink to="Projects" onClick={toggle}>
 					Projects
 				</SidebarLink>
 
-				<SidebarLink to="Research">
+				<SidebarLink to="Research" onClick={toggle}>
 					Research
 				</SidebarLink>
 
-				<SidebarLink to="About Me">
+				<SidebarLink to="About Me" onClick={toggle}>
 					About Me
 				</SidebarLink>
 
-				<SidebarLink to="Contact">
+				<SidebarLink to="Contact" onClick={toggle}>
 					Contact
 				</SidebarLink>
 
-				<SidebarLink to="Resume">
+				<SidebarLink to="Resume" onClick={toggle}>
 					Resume
 				</SidebarLink>
 

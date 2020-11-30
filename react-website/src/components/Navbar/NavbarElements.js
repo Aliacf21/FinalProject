@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   left: 0;
   background-color: #C4C4C4;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 950px) {
 		height: 60px;
   		width: 100%;
 		position: fixed;
@@ -66,7 +66,7 @@ export const NavLogoMobile = styled(LinkR)`
 export const MobileIcon = styled.div`
 	display: none;
 	
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 950px) {
 		display: block;
 		position: absolute;
 		top: 0;
@@ -95,7 +95,7 @@ export const NavMenu = styled.ul`
 
 
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 950px) {
 		display: none;
 	}
 	`
