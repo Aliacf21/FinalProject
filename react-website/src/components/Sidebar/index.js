@@ -33,9 +33,7 @@ function Sidebar() {
 
 
 			</SidebarMenu>
-			<SideBtnWrap>
-				<SidebarRoute to='/resume'>Sign In</SidebarRoute>
-			</SideBtnWrap>
+		
 
 
 		</SidebarWrapper>
