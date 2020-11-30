@@ -18,21 +18,21 @@ export const SidebarContainer = styled.aside`
 	opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
 	top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 	
-	/*top: 0;*/
 `
 
 export const CloseIcon = styled(FaTimes)`
-	color: #fff
+	color: black;
 `
 
 export const Icon = styled.div`
 	position: absolute;
 	top: 1.2rem;
-	right: 1.5rem;
+	left: 1.5rem;
 	background: transparent;
 	font-size: 2rem;
 	cursor: pointer;
 	outline: none;
+
 `
 
 export const SidebarWrapper = styled.div `
@@ -52,7 +52,7 @@ export const SidebarLink = styled(LinkS)`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-decoration: none;
 	list-style: none;
 	transition: 0.2s ease-in-out;
