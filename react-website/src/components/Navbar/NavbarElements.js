@@ -12,6 +12,7 @@ export const Nav = styled.nav`
   background-color: #C4C4C4;
   grid-area: col1;
 
+
   @media screen and (max-width: 950px) {
 		height: 60px;
   		width: 100%;
@@ -27,8 +28,8 @@ export const NavbarContainer = styled.div`
 	justify-content: space-between;
 	z-index: 1;
 	max-width: 1100px;
-	
-	`
+
+		`
 
 export const NavLogo = styled(LinkR)`
 	color: black;
