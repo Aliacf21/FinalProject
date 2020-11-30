@@ -4,12 +4,13 @@ import { Link as LinkS } from "react-scroll"
 
 export const Nav = styled.nav`
   height: 100%;
-  width: 275px;
+ 
   position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
   background-color: #C4C4C4;
+  grid-area: col1;
 
   @media screen and (max-width: 950px) {
 		height: 60px;
