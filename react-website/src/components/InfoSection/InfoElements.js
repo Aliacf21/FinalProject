@@ -35,6 +35,7 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
 	margin-bottom: 15px;
+	margin-left: 150px;
 	padding: 0 15px;
 	grid-area: col2;
 	
@@ -74,9 +75,7 @@ export const Subtitle = styled.p`
 	font-size: 18px;
 	line-height: 24px;
 
-	color: ${({ darkText }) => (darkText ? "#f7f8fa" : "010606")};*/
-	
-
+	color: ${({ darkText }) => (darkText ? "#f7f8fa" : "010606")};
 `
 
 export const BtnWrap = styled.div`
