@@ -13,7 +13,8 @@ function CardItem(props) {
               alt='Travel Image'
               src={props.src}
             />
-             <div class="top-left">Top Left</div>
+             <div class="top-leftTitle">{props.title}</div>
+             <div class="top-leftDescription">{props.Description}</div>
   
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>

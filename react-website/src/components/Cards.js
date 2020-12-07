@@ -1,6 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import Icon1 from "../images/examOptimum.png"
+import Icon2 from "../images/15112.png"
+import Icon3 from "../images/bake.png"
+import Icon4 from "../images/moorewood.png"
+
+
 
 function Cards({section}) {
   return (
@@ -12,13 +18,16 @@ function Cards({section}) {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F6dP6Anvbn5A%2Fmaxresdefault.jpg&f=1&nofb=1'
+              src={Icon1}
               path='/examOptimum'
+              title="ExamOptimum"
+              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
             />
+
             <CardItem
-              src='https://www.cs.cmu.edu/sites/default/files/styles/news_item_image/public/pauschlight_b.jpg?itok=c2c4WPjk'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src={Icon2}
+              title='15112 Term Project'
+              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
               path='/15112'
             />
 
@@ -27,13 +36,15 @@ function Cards({section}) {
 
            <ul className='cards__items'>
             <CardItem
-              src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F6dP6Anvbn5A%2Fmaxresdefault.jpg&f=1&nofb=1'
+              src={Icon3}
               path='/BunBunBakeShop'
+              title="Bun Bun Bake Shop"
+              Description="React Web application for a baker"
             />
             <CardItem
-              src='https://www.cs.cmu.edu/sites/default/files/styles/news_item_image/public/pauschlight_b.jpg?itok=c2c4WPjk'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src={Icon4}
+              title="CMU Airport Transportation"              
+              Description='Project to prototype an app if CMU provided airport transportation'
               path='/Shuttle'
             />
 
