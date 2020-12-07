@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const InfoContainer = styled.div`
 	color: #fff;
 	margin-left: 100px;
-	background: orange;
+	background: white;
 	display: block;
 	@media screen and (max-width: 768px) {
 		padding: 0px 0;
@@ -44,9 +44,11 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-	max-wdith: 540px;
+	max-width: 540px;
 	padding-top: 0;
 	padding-bottom: 60px;
+	background-color: red;
+
 `
 
 export const TopLine = styled.p`

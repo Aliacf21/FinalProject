@@ -29,7 +29,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
-			<ResearchCards />
+			<ResearchCards section={"Research"}/>
 				</InfoWrapper>
 			</InfoContainer>
 			
@@ -44,7 +44,8 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 		<>
 			<InfoContainer lightBg={lightBg} id={id}>
 				<InfoWrapper>
-				<h2>{topLine}</h2>
+
+				<ResearchCards section={"Research"}/>
 			
 				</InfoWrapper>
 			</InfoContainer>

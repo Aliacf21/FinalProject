@@ -2,6 +2,11 @@
   padding: 0rem;
   margin-left: 175px;
   margin-top: 0px;
+
+ 
+  @media screen and (max-width: 950px) {
+    background-color: red;
+}
 }
 
 h2 {
@@ -12,7 +17,7 @@ h2 {
 .cards__container {
   align-items: left;
   width: 100%;
-  background-color: black;
+  background-color: white;
 
 }
 

@@ -2,8 +2,11 @@
   padding: 0rem;
   height: 100%;
   margin-left: 175px;
-  background-color: red;
+  background-color: white;
 
+   @media screen and (max-width: 950px) {
+    background-color: red;
+}
 }
 
 h2 {
