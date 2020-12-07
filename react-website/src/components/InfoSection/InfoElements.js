@@ -19,17 +19,21 @@ export const InfoWrapper = styled.div`
 	z-index: 1;
 	height: 860px;
 	width: 100% 
-	max-width: 1100px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 24px;
 	justify-content: center;
+	margin-left: 100px;
+
 `
 export const Column1 = styled.div`
 	margin-bottom: 15px;
-	margin-left: 200px;
-	padding: 0 15px;
+	margin-left: 150px;
+	padding: 50 15px;
 	grid-area: col1;
+
+	align-items: right;
 
 `
 
@@ -38,6 +42,9 @@ export const Column2 = styled.div`
 	margin-left: 150px;
 	padding: 0 15px;
 	grid-area: col2;
+
+	margin-right: 100px;
+
 	
 `
 
@@ -89,9 +96,10 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-	width: 100%;
+	width: 600px;
+	height: 800px;
 	margin: 0 0 10px 0;
-	padding-right: 0;
+	justify-content: right;
 
 `
 export const InfoRow = styled.div`

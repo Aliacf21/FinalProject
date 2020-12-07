@@ -10,7 +10,8 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   background-color: #C4C4C4;
-  grid-area: col1;
+
+
 
 
   @media screen and (max-width: 950px) {
