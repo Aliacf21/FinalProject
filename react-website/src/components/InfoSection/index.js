@@ -2,100 +2,56 @@ import React from 'react'
 import { Button } from "../ButtonElements"
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img  } from "./InfoElements.js";
 import Cards from "../../components/Cards";
+import ResearchCards from "../../components/ResearchCards";
 
 function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) {
-	return (
+	if (id == "Projects") { 
+
+		console.log("projects")
+		return (
 		<>
 			<InfoContainer lightBg={lightBg} id={id}>
 				<InfoWrapper>
-		
-					<InfoRow imgStart ={imgStart}>
-						<Column1>
-						
-							<TextWrapper>
-
-								
 				
-								<ImgWrap>
-									<Img src={img} alt={alt}/>
-								</ImgWrap>
-
-
-
-					
-							</TextWrapper>
-						</Column1>
-						<Column2>
-							<TextWrapper>
-						
-
-								<ImgWrap>
-									<Img src={img} alt={alt}/>
-								</ImgWrap>
-
-														</TextWrapper>
-						</Column2>
-					</InfoRow>
-				</InfoWrapper>
-			</InfoContainer>
-
-				<InfoContainer lightBg={lightBg} id={id}>
-				<InfoWrapper>
-					<InfoRow imgStart ={imgStart}>
-						<Column1>
-							<TextWrapper>
-								<TopLine>{topLine}</TopLine>
-								<Heading lightText={lightText}>{headLine}</Heading>
-								<Subtitle darkText={darkText}>{description}</Subtitle>
-
-								<ImgWrap>
-									<Img src={img} alt={alt}/>
-								</ImgWrap>
-
-								<BtnWrap>
-									<Button to={id}
-										smooth={true}
-										duration={500}
-										spy={true}
-										exact="true"
-										offset={-80}
-										primary={primary ? 1 : 0}
-										dark={dark ? 1 : 0}
-										dark2={dark2 ? 1 : 0}
-										>{buttonLabel}</Button>
-								</BtnWrap>
-							</TextWrapper>
-						</Column1>
-						<Column2>
-							<TextWrapper>
-								<TopLine>{topLine}</TopLine>
-								<Heading lightText={lightText}>{headLine}</Heading>
-								<Subtitle darkText={darkText}>{description}</Subtitle>
-
-								<ImgWrap>
-									<Img src={img} alt={alt}/>
-								</ImgWrap>
-
-								<BtnWrap>
-									<Button to={id}
-										smooth={true}
-										duration={500}
-										spy={true}
-										exact="true"
-										offset={-80}
-										primary={primary ? 1 : 0}
-										dark={dark ? 1 : 0}
-										dark2={dark2 ? 1 : 0}
-										>{buttonLabel}</Button>
-								</BtnWrap>
-							</TextWrapper>
-						</Column2>
-					</InfoRow>
+			<Cards section={"Projects"}/>
 				</InfoWrapper>
 			</InfoContainer>
 			
 		</>
 	)
+
+
+	}
+	else if (id == "Research") {
+
+	return (
+		<>
+			<InfoContainer lightBg={lightBg} id={id}>
+			
+				<InfoWrapper>
+			<ResearchCards />
+				</InfoWrapper>
+			</InfoContainer>
+			
+		</>
+	)
+}
+
+
+	else {
+
+	return (
+		<>
+			<InfoContainer lightBg={lightBg} id={id}>
+				<InfoWrapper>
+				<h2>{topLine}</h2>
+			
+				</InfoWrapper>
+			</InfoContainer>
+			
+		</>
+	)
+}
 }
 
 export default InfoSection

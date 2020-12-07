@@ -2,7 +2,7 @@
 export const homeObjOne = {
 	id: "Projects",
 	lightBg: false,
-	lightText: false,
+	lightText: true,
 	lightTextDesc: true,
 	topLine: 'My Projects',
 	headLine: "Unlimited Transactions with zero fees",

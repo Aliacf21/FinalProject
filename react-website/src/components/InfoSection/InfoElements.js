@@ -3,11 +3,9 @@ import styled from "styled-components"
 
 export const InfoContainer = styled.div`
 	color: #fff;
-	background: ${({lightBg}) => (lightBg ? "#f9f9f9" : "#010606")};
 	margin-left: 100px;
-	height: 1040px;
+	background: orange;
 	display: block;
-
 	@media screen and (max-width: 768px) {
 		padding: 0px 0;
 	}
@@ -19,12 +17,9 @@ export const InfoWrapper = styled.div`
 	z-index: 1;
 	height: 860px;
 	width: 100% 
-	max-width: 1200px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0 24px;
 	justify-content: center;
-	margin-left: 100px;
+	height: 100%;
+
 
 `
 export const Column1 = styled.div`
@@ -55,7 +50,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-	color: #01bf71;
+	color: red;
 	font-size: 16px;
 	line-height: 16px;
 	font-weight: 700;
