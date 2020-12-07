@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
-import Navbar from "../components/Navbar";
+import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
 import Cards from "../components/Cards";
@@ -20,8 +20,8 @@ function Project() {
 	return (
 		<>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
-			<Navbar toggle={toggle}/>
-			<InfoSection  {...homeObjTwo}/>
+			<ProjectNavBar toggle={toggle}/>
+			<InfoSection  {...homeObjOne}/>
 			
 		</>
 	)

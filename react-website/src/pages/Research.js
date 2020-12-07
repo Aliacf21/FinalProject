@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
-import Navbar from "../components/Navbar";
+import ResearchNavBar from "../components/ResearchNavBar/index";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
 import Cards from "../components/Cards";
@@ -20,7 +20,7 @@ function Research() {
 	return (
 		<>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
-			<Navbar toggle={toggle}/>
+			<ResearchNavBar toggle={toggle}/>
 			<InfoSection  {...homeObjTwo}/>
 			
 		</>
