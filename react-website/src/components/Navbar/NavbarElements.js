@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link as LinkR } from "react-router-dom"
-import { Link as LinkS } from "react-scroll"
+import { Link as LinkS, animateScroll as scroll} from "react-scroll"
 
 export const Nav = styled.nav`
   height: 100%;
@@ -17,7 +17,7 @@ export const Nav = styled.nav`
 		height: 60px;
   		width: 100%;
 		position: fixed;
-		z-index: 10;
+		z-index: 10;Link
 		top: 0;
 		left: 0;
 		background-color: #C4C4C4;
@@ -50,6 +50,8 @@ export const NavLogo = styled(LinkR)`
 		color: white;
 		transition: 0.2s ease-in-out;
 	}
+
+
 `
 
 export const NavLogoMobile = styled(LinkR)`
@@ -113,15 +115,22 @@ export const NavLinks = styled(LinkS)`
   color: black;
   display: block;
 
-  #margin-left: 25px;
 
 	&:hover {
 		font-weight: bold;
 		transition: 0.1s ease-in-out;
 	}
+   &.active {
+    font-weight: bold;
+	transition: 0.1s ease-in-out;
+  }
+
+
 
 	
 `
+
+
 
 export const NavBtn = styled.nav`
 	display: flex;

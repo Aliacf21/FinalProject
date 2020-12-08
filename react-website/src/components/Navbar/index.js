@@ -18,19 +18,19 @@ const Navbar = ({toggle}) => {
 
 
 					<NavItem>
-						<NavLinks exact activeStyle={{ color: "red" }} to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-70} duration={500} to="Projects">Projects</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Research">Research</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Research">Research</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="About Me">About Me</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="About Me">About Me</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Contact">Contact</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Contact">Contact</NavLinks>
 					</NavItem>
 
 					<NavItem>
