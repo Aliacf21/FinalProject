@@ -1,8 +1,6 @@
 .cards {
-  padding: 0rem;
-  height: 100%;
-  margin-left: 175px;
-  background-color: white;
+
+  background-color: pink;
 
    @media screen and (max-width: 950px) {
     background-color: red;
@@ -17,8 +15,14 @@ h2 {
 .cards__container {
   align-items: left;
   width: 100%;
-  background-color: black;
+  background-color: yellow;
   height: 100%;
+
+  @media screen and (max-width: 950px) {
+    margin-left: 0px;
+    background-color: white;
+
+  }
 
 }
 
@@ -54,7 +58,7 @@ h2 {
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   overflow: hidden;
   padding: 100px;
-  height: 600px;
+  height: 200px;
   justify-content: flex-end;
 
 }
@@ -80,7 +84,7 @@ h2 {
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 200;
   color: #fff;
   background-color: #1f98f4;
   box-sizing: border-box;

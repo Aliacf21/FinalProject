@@ -3,11 +3,14 @@ import styled from "styled-components"
 
 export const InfoContainer = styled.div`
 	color: #fff;
-	margin-left: 100px;
-	background: white;
+	margin-left: 275px;
+	background: purple;
+	width: 100%
+
 	display: block;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 950px) {
 		padding: 0px 0;
+		margin-left: 0px;
 	}
 
 `

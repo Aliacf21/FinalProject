@@ -10,6 +10,8 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   background-color: #C4C4C4;
+  width: 275px;
+
 
 
 
@@ -29,6 +31,7 @@ export const NavbarContainer = styled.div`
 	justify-content: space-between;
 	z-index: 1;
 	max-width: 1100px;
+	background-color:red;
 
 		`
 
