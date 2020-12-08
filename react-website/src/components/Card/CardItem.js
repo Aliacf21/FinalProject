@@ -13,12 +13,17 @@ function CardItem(props) {
               alt='Travel Image'
               src={props.src}
             />
-             <div class="top-leftTitle">{props.title}</div>
-             <div class="top-leftDescription">{props.Description}</div>
+             
   
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
+            <h5 className='cards__item__text'>{props.title}</h5>
+
           </div>
+          <br></br>
+
+
+      <h3 className='cards__item__text'><br></br><br></br>{props.Description}</h3>
+             
         </Link>
       </li>
     </>

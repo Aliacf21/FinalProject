@@ -47,7 +47,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 				<InfoWrapper>
 
-				<ResearchCards section={"Research"}/>
+				<div style={{ color: "red" }}>{id}</div>
 			
 				</InfoWrapper>
 			</InfoContainer>
