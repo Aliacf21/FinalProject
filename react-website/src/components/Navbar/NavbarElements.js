@@ -13,9 +13,6 @@ export const Nav = styled.nav`
   width: 275px;
 
 
-
-
-
   @media screen and (max-width: 950px) {
 		height: 60px;
   		width: 100%;
@@ -31,7 +28,7 @@ export const NavbarContainer = styled.div`
 	justify-content: space-between;
 	z-index: 1;
 	max-width: 1100px;
-	background-color:red;
+	
 
 		`
 
@@ -111,7 +108,6 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-  #padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: black;
@@ -123,6 +119,8 @@ export const NavLinks = styled(LinkS)`
 		font-weight: bold;
 		transition: 0.1s ease-in-out;
 	}
+
+	
 `
 
 export const NavBtn = styled.nav`

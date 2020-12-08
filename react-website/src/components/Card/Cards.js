@@ -1,10 +1,10 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import Icon1 from "../images/examOptimum.png"
-import Icon2 from "../images/15112.png"
-import Icon3 from "../images/bake.png"
-import Icon4 from "../images/moorewood.png"
+import Icon1 from "../../images/examOptimum.png"
+import Icon2 from "../../images/15112.png"
+import Icon3 from "../../images/bake.png"
+import Icon4 from "../../images/moorewood.png"
 
 
 

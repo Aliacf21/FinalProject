@@ -1,10 +1,10 @@
 import React from 'react';
 import './ResearchCards.css';
 import ResearchCardItem from './ResearchCardItem';
-import Icon1 from "../images/IAT.png"
-import Icon2 from "../images/qatar.png"
-import Icon3 from "../images/arabic.png"
-import Icon4 from "../images/coffee.png"
+import Icon1 from "../../images/IAT.png"
+import Icon2 from "../../images/qatar.png"
+import Icon3 from "../../images/arabic.png"
+import Icon4 from "../../images/coffee.png"
 
 function ResearchCards({section}) {
   return (

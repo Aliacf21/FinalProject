@@ -1,53 +1,43 @@
 .cards {
-  
-  
-  background-color: orange;
-
- 
    @media screen and (max-width: 950px) {
-    margin-left: 0px;
-    background-color: red;
     
-  }
+}
 }
 
 h2 {
-  margin-left: 55px;
   color: black;
+
 }
 
 .cards__container {
   align-items: left;
-  margin-top: 0px;
   width: 100%;
+  height: 100%;
+
 
   @media screen and (max-width: 950px) {
-    margin-left: 0px;
-   background-color: white;
-    
+    margin: 0px;
+    background-color: red;
+
   }
-  
 
 }
 
-.top-leftTitle {
+.top-left {
   position: absolute;
   top: 8px;
   left: 16px;
-  font-size: 36px;
-  color: white;
-}
-
-.top-leftDescription {
-  position: absolute;
-  top: 60px;
-  left: 16px;
-  font-size: 65px;
   color: white;
 }
 
 .cards__wrapper {
   position: relative;
+
+  @media screen and (max-width: 950px) {
+    margin: 0px;
+    background-color: red;
+
+  }
  
 }
 
@@ -71,8 +61,9 @@ h2 {
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   overflow: hidden;
   padding: 100px;
-  height: 400px;
+  height: 200px;
   justify-content: flex-end;
+  
 
 }
 
@@ -97,7 +88,7 @@ h2 {
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 200;
   color: #fff;
   background-color: #1f98f4;
   box-sizing: border-box;

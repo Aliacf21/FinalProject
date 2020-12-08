@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar"
 import ResearchNavBar from "../components/ResearchNavBar/index";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
-import Cards from "../components/Cards";
+
 import { homeObjOne, homeObjTwo,  homeObjThree} from "../components/InfoSection/Data";
 
 

@@ -18,7 +18,7 @@ const Navbar = ({toggle}) => {
 
 
 					<NavItem>
-						<NavLinks to="Projects">Projects</NavLinks>
+						<NavLinks exact activeStyle={{ color: "red" }} to="Projects">Projects</NavLinks>
 					</NavItem>
 
 					<NavItem>

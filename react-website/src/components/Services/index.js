@@ -3,7 +3,7 @@ import Icon1 from "../../images/Icon1.jpeg"
 import Icon2 from "../../images/Icon1.jpeg"
 import Icon3 from "../../images/Icon1.jpeg"
 import { ServicesContainer, ServicesH1, ServicesH2, ServicesWrapper, ServicesCard, ServicesIcon, ServicesP} from "./ServicesElements";
-import Cards from "../../components/Cards";
+
 
 function Services() {
 	return (
