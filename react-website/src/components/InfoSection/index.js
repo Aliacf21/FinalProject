@@ -12,7 +12,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 		<>
 			<InfoContainer lightBg={lightBg} id={id}>
 				<InfoWrapper>
-				
+				<h2>{id} </h2>
 			<Card section={"Projects"}/>
 				</InfoWrapper>
 			</InfoContainer>
@@ -29,6 +29,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
+				<h2>{id}</h2>
 			<ResearchCards section={"Research"}/>
 				</InfoWrapper>
 			</InfoContainer>
@@ -45,6 +46,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
+				<h2>{id} </h2>
 			<ContentCard section={id} description={description}/>
 				</InfoWrapper>
 			</InfoContainer>
@@ -60,6 +62,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
+				<h2>{id} </h2>
 			<ContentCard section={id} description={description}/>
 			
 				</InfoWrapper>
@@ -76,6 +79,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
+				<h2>{id} </h2>
 			<Card section={"Overview"} img={img}/>
 			
 				</InfoWrapper>
@@ -92,6 +96,7 @@ else {
 			<InfoContainer lightBg={lightBg} id={id}>
 			
 				<InfoWrapper>
+				<h2>{id} </h2>
 			<ContentCard section={id} description={description}/>
 			
 				</InfoWrapper>

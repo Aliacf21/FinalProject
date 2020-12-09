@@ -2,11 +2,7 @@
 
 .cards2 { 
 
-   @media screen and (max-width: 950px) {
-    margin-left: 0px;
-    background-color: pink
-  
-  }
+
 }
 
 
@@ -20,7 +16,6 @@ h2 {
   margin-top: 0px;
   width: 100%;
   
-
 }
 
 .top-leftTitle2 {
@@ -66,7 +61,6 @@ h2 {
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   overflow: hidden;
-  
   justify-content: flex-end;
   background-color: #C4C4C4;
 
@@ -120,3 +114,18 @@ h2 {
     padding: 0;
   }
 }
+
+@media only screen and (max-width: 950px) {
+  h2 {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .cards2 {
+    margin-top: 75px;
+  }
+}
+
+
+

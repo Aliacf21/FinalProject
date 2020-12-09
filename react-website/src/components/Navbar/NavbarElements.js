@@ -21,6 +21,7 @@ export const Nav = styled.nav`
 		top: 0;
 		left: 0;
 		background-color: #C4C4C4;
+	
 `
 
 export const NavbarContainer = styled.div`

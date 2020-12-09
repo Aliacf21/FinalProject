@@ -20,7 +20,7 @@ function Project() {
 		<>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
 
-		    <iframe src={resume} width="100%" height="1040px">
+		    <iframe src={resume} width="100%" height="1800px"> 
     </iframe>
 		
 			

@@ -11,7 +11,6 @@ function ContentCards({section, description}) {
 
     <div className='cards2'>
       <div className='cards__container2'>
-      <h2>{section}</h2>
         <div className='cards__wrapper2'>
           <ul className='cards__items2'>
             <ContentCardItem

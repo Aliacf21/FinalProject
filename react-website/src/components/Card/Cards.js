@@ -13,9 +13,8 @@ function Cards({section, img}) {
     return (
 
       <div className='cards'>
-
       <div className='cards__container'>
-      <h2>{section}</h2>
+
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
@@ -38,7 +37,7 @@ function Cards({section, img}) {
     <div className='cards'>
 
       <div className='cards__container'>
-      <h2>{section}</h2>
+
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem

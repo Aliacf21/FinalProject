@@ -1,25 +1,12 @@
 .cards {
-   @media screen and (max-width: 950px) {
-    
-}
+   top: -80px;
 }
 
-h2 {
-  color: black;
-
-}
 
 .cards__container {
   align-items: left;
   width: 100%;
   height: 100%;
-
-
-  @media screen and (max-width: 950px) {
-    margin: 0px;
-    background-color: red;
-
-  }
 
 }
 
@@ -149,3 +136,7 @@ h2 {
     padding: 0;
   }
 }
+
+
+
+
