@@ -143,3 +143,9 @@ h2 {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 950px) {
+  .cards__items {
+    padding: 0;
+  }
+}

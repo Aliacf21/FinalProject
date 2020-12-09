@@ -1,4 +1,5 @@
 
+import styled from "styled-components"
 
 .cards2 { 
 
@@ -41,12 +42,24 @@ h2 {
 
 .cards__wrapper2 {
   position: relative;
+
+
+
+  @media screen and (max-width: 950px) {
+   margin: 0px;
+   background-color: red;
+
+  }
  
 }
 
 .cards__items2 {
   margin-bottom: 24px;
 
+
+@media (max-width: 767.98px) {
+  display: none; 
+}
 
 }
 
@@ -100,23 +113,20 @@ h2 {
 
 }
 
-
-
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
-    width: 100%;
+    width: 84%;
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
-  .cards__item2 {
+  .cards__item {
     margin-bottom: 2rem;
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  .cards__items2 {
-    padding: 0;
   }
 }
