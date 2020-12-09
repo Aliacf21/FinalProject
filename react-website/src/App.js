@@ -10,6 +10,7 @@ import IAT from "./pages/IAT";
 import StemIAT from "./pages/StemIAT";
 import Test from "./pages/Test";
 import ResearchProject from "./pages/ResearchProject";
+import Resume from "./pages/Resume";
 
 
 
@@ -27,6 +28,7 @@ function App() {
     		<Route path='/StemIAT' exact component={StemIAT} />
     		<Route path='/Test' exact component={Test} />
     		<Route path='/ResearchProject' exact component={ResearchProject} />
+            <Route path='/Resume' exact component={Resume} />
     	</Switch>
 
     </Router>

@@ -125,10 +125,26 @@ export const NavLinks = styled(LinkS)`
 	transition: 0.1s ease-in-out;
   }
 
-
-
-	
 `
+
+export const NavLinksResume = styled(LinkR)`
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+
+
+	&:hover {
+		font-weight: bold;
+		transition: 0.1s ease-in-out;
+	}
+   &.active {
+    font-weight: bold;
+	transition: 0.1s ease-in-out;
+  }
+
+`
+
 
 
 
