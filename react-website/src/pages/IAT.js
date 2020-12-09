@@ -2,13 +2,13 @@ import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
 import ResearchNavBar from "../components/ResearchNavBar/index";
 import InfoSection from "../components/InfoSection";
-import Services from "../components/Services";
+import ContentCard from "../components/ContentBlock/ContentCards";
 
-import { homeObjOne, homeObjTwo,  homeObjThree} from "../components/InfoSection/Data";
+import { IAT_overview, IAT_Research_Question, IAT_Experiment, IAT_Results} from "../components/InfoSection/Data";
 
 
 
-function Research() {
+function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)
 
@@ -21,10 +21,12 @@ function Research() {
 		<>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
 			<ResearchNavBar toggle={toggle}/>
-			<InfoSection  {...homeObjTwo}/>
-			
+			<InfoSection  {...IAT_overview}/>
+			<InfoSection  {...IAT_Research_Question}/>
+			<InfoSection  {...IAT_Experiment}/>
+			<InfoSection  {...IAT_Results}/>	
 		</>
 	)
 }
 
-export default Research
+export default Project

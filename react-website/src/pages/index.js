@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
 import Navbar from "../components/Navbar";
 import InfoSection from "../components/InfoSection";
-import Services from "../components/Services";
-import { homeObjOne, homeObjTwo,  homeObjThree} from "../components/InfoSection/Data";
+import { homeObjOne, homeObjTwo,  homeObjThree, homeObjFour} from "../components/InfoSection/Data";
 
 
 
@@ -20,9 +19,10 @@ function Home() {
 		<>
 			<Sidebar isOpen={isOpen} toggle={toggle}/>
 			<Navbar toggle={toggle}/>
+			<InfoSection  {...homeObjThree}/>
 			<InfoSection  {...homeObjOne}/>
 			<InfoSection  {...homeObjTwo}/>
-			<InfoSection  {...homeObjThree}/>
+			<InfoSection  {...homeObjFour}/>
 		</>
 	)
 }

@@ -18,40 +18,21 @@ const ProjectNavBar = ({toggle}) => {
 
 
 					<NavItem>
-						<NavLinks to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Overview">Overview</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Projects">Overview</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Problems">Problems</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Projects">Problems</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Process">Process</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Projects">Process</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Solution">Solution</NavLinks>
 					</NavItem>
 
-					<NavItem>
-						<NavLinks to="Projects">Solution</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="Research">Research</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="About Me">About Me</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="Contact">Contact</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="/Resume">Resume</NavLinks>
-					</NavItem>
 
 					
 					</NavMenu>

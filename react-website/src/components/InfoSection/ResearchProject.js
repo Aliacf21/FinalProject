@@ -3,8 +3,9 @@ import Sidebar from "../components/Sidebar"
 import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
+import ContentCard from "../components/ContentBlock/ContentCards";
 
-import { homeObjOne, homeObjTwo,  homeObjThree} from "../components/InfoSection/Data";
+import { homeObjOne, homeObjTwo,  homeObjThree, homeObjFour} from "../components/InfoSection/Data";
 
 
 
@@ -21,8 +22,7 @@ function Project() {
 		<>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
 			<ProjectNavBar toggle={toggle}/>
-			<InfoSection  {...homeObjOne}/>
-			
+			<InfoSection  {...homeObjThree}/>	
 		</>
 	)
 }

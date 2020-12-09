@@ -16,43 +16,20 @@ const ProjectNavBar = ({toggle}) => {
 
 				<NavLogo to="/">Alia Friedman</NavLogo>
 
-
 					<NavItem>
-						<NavLinks to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Overview">Overview</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Research">Research</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Research Question">Research Question</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Projects">Overview</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Experiment">Experiment</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks to="Projects">Research Question</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="Projects">Experiment</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="Projects">Results</NavLinks>
-					</NavItem>
-
-				
-
-					<NavItem>
-						<NavLinks to="About Me">About Me</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="Contact">Contact</NavLinks>
-					</NavItem>
-
-					<NavItem>
-						<NavLinks to="/Resume">Resume</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Results">Results</NavLinks>
 					</NavItem>
 
 					

@@ -16,18 +16,19 @@ const Navbar = ({toggle}) => {
 
 				<NavLogo to="/">Alia Friedman</NavLogo>
 
+					<NavItem>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="About Me">About Me</NavLinks>
+					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-70} duration={500} to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Projects">Projects</NavLinks>
 					</NavItem>
 
 					<NavItem>
 						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Research">Research</NavLinks>
 					</NavItem>
 
-					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="About Me">About Me</NavLinks>
-					</NavItem>
+					
 
 					<NavItem>
 						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Contact">Contact</NavLinks>

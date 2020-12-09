@@ -8,7 +8,31 @@ import Icon4 from "../../images/moorewood.png"
 
 
 
-function Cards({section}) {
+function Cards({section, img}) {
+  if (section == "Overview") {
+    return (
+
+      <div className='cards'>
+
+      <div className='cards__container'>
+      <h2>{section}</h2>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src={img}
+              path='/examOptimum'
+              title="ExamOptimum"
+              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+            />
+
+          </ul>
+
+        </div>
+      </div>
+    
+    </div>
+      )
+  }
   return (
 
     <div className='cards'>
