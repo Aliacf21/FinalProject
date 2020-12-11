@@ -31,9 +31,6 @@ function Sidebar({section, isOpen, toggle}) {
 				</SidebarLink>
 
 			</SidebarMenu>
-		
-
-
 		</SidebarWrapper>
 		</SidebarContainer>
 	)
