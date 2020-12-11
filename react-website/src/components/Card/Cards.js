@@ -18,12 +18,12 @@ import Icon8 from "../../images/qatar.png"
 function Cards({section, description, myTitle}) {
 
 
+
+
   if (section === "Overview" && myTitle==="examOptimum") {
     return (
-
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
@@ -31,57 +31,45 @@ function Cards({section, description, myTitle}) {
               title="ExamOptimum"
               Description= { description }
             />
-
           </ul>
-
         </div>
-      </div>
-    
+      </div>  
     </div>
       )
   }
 
   if (section === "Overview" && myTitle==="15112 Term Project") {
     return (
-
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon2}
-              title="ExamOptimum"
+              title="15112 Term Project"
               Description= { description }            
               />
           </ul>
-
         </div>
-      </div>
-    
+      </div>    
     </div>
       )
   }
 
   if (section === "Overview" && myTitle==="bake") {
     return (
-
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon3}
-              title="ExamOptimum"
+              title="Bun Bun Bake Shop"
               Description= { description }                    
               />
-
           </ul>
-
         </div>
       </div>
-    
     </div>
       )
   }
@@ -91,20 +79,16 @@ function Cards({section, description, myTitle}) {
 
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon4}
-              title="ExamOptimum"
+              title="CMU Airport Transportation"
               Description= { description }            
             />
-
           </ul>
-
         </div>
       </div>
-    
     </div>
       )
   }
@@ -114,19 +98,16 @@ function Cards({section, description, myTitle}) {
 
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon5}
-              title="ExamOptimum"
-                Description= { description }    
+              title="Programming the English and Arabic version of the IAT"
+              Description= { description }    
               />
           </ul>
-
         </div>
       </div>
-    
     </div>
       )
   }
@@ -136,43 +117,34 @@ function Cards({section, description, myTitle}) {
 
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon6}
-              title="ExamOptimum"
+              title="Research Project to Study the Effects of Coffe Visual cue on Attention"
               Description= { description }            
             />
-
           </ul>
-
         </div>
       </div>
-    
     </div>
       )
   }
 
    if (section === "Overview" && myTitle==="IAT") {
     return (
-
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon7}
-              title="ExamOptimum"
+              title="Implicit Association Task"
               Description= { description }            
             />
-
           </ul>
-
         </div>
       </div>
-    
     </div>
       )
   }
@@ -182,53 +154,23 @@ function Cards({section, description, myTitle}) {
 
       <div className='cards'>
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={Icon8}
-              title="ExamOptimum"
+              title="Research to examine the implicit associations between Liberal Arts and STEM"
               Description= { description }            
             />
-
           </ul>
-
         </div>
       </div>
-    
-    </div>
-      )
-  }
-
-   if (section === "Overview" && myTitle==="shuttle") {
-    return (
-
-      <div className='cards'>
-      <div className='cards__container'>
-
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon4}
-              title="ExamOptimum"
-              Description= { description }            
-            />
-
-          </ul>
-
-        </div>
-      </div>
-    
     </div>
       )
   }
 
   return (
-
     <div className='cards'>
-
       <div className='cards__container'>
-
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
@@ -237,15 +179,12 @@ function Cards({section, description, myTitle}) {
               title="ExamOptimum"
               Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
             />
-
             <CardItem
               src={Icon2}
               title='15112 Term Project'
               Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
               path='/15112'
             />
-
-
           </ul>
 
            <ul className='cards__items'>
@@ -264,10 +203,8 @@ function Cards({section, description, myTitle}) {
 
             
           </ul>
-
         </div>
       </div>
-    
     </div>
   );
 }
