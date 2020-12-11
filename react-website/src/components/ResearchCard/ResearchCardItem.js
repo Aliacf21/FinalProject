@@ -19,7 +19,7 @@ function ResearchCardItem(props) {
           <br></br>
 
 
-      <p style= {{ lineHeight: "150%", fontSize: "26px"}} className='cards__item__text'><br></br>{props.Description}</p>
+      <p style= {{ lineHeight: "150%", fontSize: "26px", marginRight: "10px"}} className='cards__item__text'><br></br>{props.Description}</p>
              
         </Link>
       </li>

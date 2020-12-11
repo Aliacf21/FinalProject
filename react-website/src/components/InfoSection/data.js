@@ -9,7 +9,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
 	id: "About Me",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design.",
+	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design. Please reach out – I love to meet new people and connect!",
 };
 
 
@@ -23,14 +23,11 @@ export const homeObjFour = {
 export const examOptimum_overview = {
 	id: "Overview",
 	link3: "examOptimum",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design.",
-	buttonLabel: "Get Started",
-	imgStart: false,
-	img: "../../images/examOptimum.png",
-	alt: "To be filled in",
-	dark: true,
-	primary: true,
-	darkText: false
+	role: "Project Lead, Full-Stack Engineer",
+	tools: "Python, Flask, Javascript, HTML/CSS",
+	team: "AJ Druck (Full-Stack Engineer) ",
+	description: "Together AJ and I built an application designed to help professors choose exam dates that are best for their students based on when their other exams occur",
+	alt: "Randy Pausch bridge"
 };
 
 export const examOptimum_problems = {
@@ -54,7 +51,10 @@ export const examOptimum_solutions = {
 export const BunBunBakeShop_overview = {
 	id: "Overview",
 	link3: "bake",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	role: "Designer, Programmer",
+	team: "",
+	tools: "Figma, Javascript, HTML/CSS, react-bootstrap", 
+	description: "I am a senior at and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
 
@@ -104,13 +104,16 @@ export const IAT_Results = {
 export const programming_overview = {
 	id: "Overview",
 	link3: "15112 Term Project",
+	team: "",
+	role: "Designer, Programmer",
+	tools: "Figma, Javascript, HTML/CSS, react-bootstrap", 
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
 
 export const programming_problems = {
 	id: "Problems",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
 

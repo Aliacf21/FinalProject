@@ -13,13 +13,7 @@ import Icon8 from "../../images/qatar.png"
 
 
 
-
-
-function Cards({section, description, myTitle}) {
-
-
-
-
+function Cards({section, role, tools, team, description, alt, myTitle}) {
   if (section === "Overview" && myTitle==="examOptimum") {
     return (
       <div className='cards'>
@@ -29,7 +23,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon1}
               title="ExamOptimum"
+              Role = {role}
+              Tools = {tools}
+              Team={team}
               Description= { description }
+              alt={alt}
             />
           </ul>
         </div>
@@ -47,7 +45,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon2}
               title="15112 Term Project"
-              Description= { description }            
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}       
               />
           </ul>
         </div>
@@ -65,7 +67,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon3}
               title="Bun Bun Bake Shop"
-              Description= { description }                    
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}     
               />
           </ul>
         </div>
@@ -84,7 +90,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon4}
               title="CMU Airport Transportation"
-              Description= { description }            
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}     
             />
           </ul>
         </div>
@@ -103,7 +113,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon5}
               title="Programming the English and Arabic version of the IAT"
-              Description= { description }    
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}
               />
           </ul>
         </div>
@@ -114,7 +128,6 @@ function Cards({section, description, myTitle}) {
 
    if (section === "Overview" && myTitle==="coffee") {
     return (
-
       <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -122,7 +135,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon6}
               title="Research Project to Study the Effects of Coffe Visual cue on Attention"
-              Description= { description }            
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}            
             />
           </ul>
         </div>
@@ -140,7 +157,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon7}
               title="Implicit Association Task"
-              Description= { description }            
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}  
             />
           </ul>
         </div>
@@ -159,7 +180,11 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon8}
               title="Research to examine the implicit associations between Liberal Arts and STEM"
-              Description= { description }            
+              Role = {role}
+              Tools = {tools}
+              Team={team}
+              Description= { description }
+              alt={alt}   
             />
           </ul>
         </div>
@@ -177,12 +202,14 @@ function Cards({section, description, myTitle}) {
               src={Icon1}
               path='/examOptimum'
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Role = ""
+              Description="Web application to help Carnegie Mellon Faculty find their optimized exam date based upon the student enrollment in their course."
             />
             <CardItem
               src={Icon2}
+              Role = ""
               title='15112 Term Project'
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description="Python project to help children learn to count which uses machine learning to recognize digits drawn using the interface"
               path='/15112'
             />
           </ul>
@@ -191,17 +218,17 @@ function Cards({section, description, myTitle}) {
             <CardItem
               src={Icon3}
               path='/BunBunBakeShop'
+              Role = ""
               title="Bun Bun Bake Shop"
-              Description="React Web application for a baker"
+              Description="Front-end project to design, prototype and program a react based application for a small bakery"
             />
             <CardItem
               src={Icon4}
+              Role = ""
               title="CMU Airport Transportation"              
-              Description='Project to prototype an app if CMU provided airport transportation'
+              Description='User-research project to develop solution to CMU airport transportation problem'
               path='/Shuttle'
             />
-
-            
           </ul>
         </div>
       </div>

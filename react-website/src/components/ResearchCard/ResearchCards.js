@@ -17,14 +17,14 @@ function ResearchCards({section}) {
               src={Icon1}
               path='/IAT'
               title = "IAT"
-              Description="Testing implicit gender attitudes in Pittsburgh and Qatar"
+              Description="Research project to test implicit gender attitudes in United States, Qatar, Saudi Arabia"
 
             />
             <ResearchCardItem
               src={Icon2}              
               path='/StemIAT'
               title = "Stem IAT"
-              Description="Testing implict attitudes about sciene in Pittsburgh"
+              Description="Research project to test gender associations on science in United States, Qatar, Saudi Arabia"
             />
 
             </ul>
@@ -33,7 +33,7 @@ function ResearchCards({section}) {
               src={Icon3}
               path='/Test'
               title = "Programming"
-              Description="Created test to look at implicit attidues in English and Arabic"
+              Description="Refactored code to support the Implicit Association task in both Arabic and English"
             />
             <ResearchCardItem
               src={Icon4}
