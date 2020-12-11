@@ -9,7 +9,7 @@ function ContentCardItem(props) {
       <li className='cards__item2'>
         <div className='cards__item__link2'>
            <div className='cards__item__info2'>
-            <h6 className='cards__item__text2' style={{ color: "white"}}><a href ={email} style = {{ color: "white", textDecoration: "none" }}>Email</a> | <a href={props.Link1} style = {{ color: "white", textDecoration: "none" }}>LinkedIn</a> | <a href={props.Link2} style = {{ color: "white", textDecoration: "none" }}>Github</a> </h6>
+            <p className='cards__item__text2' style={{ color: "black"}}><a href ={email} style = {{ color: "black", textDecoration: "none" }}>Email</a> | <a href={props.Link1} style = {{ color: "black", textDecoration: "none" }}>LinkedIn</a> | <a href={props.Link2} style = {{ color: "black", textDecoration: "none" }}>Github</a> </p>
           </div>
 
              

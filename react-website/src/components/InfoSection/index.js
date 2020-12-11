@@ -6,7 +6,7 @@ import ResearchCards from "../ResearchCard/ResearchCards.js";
 import Card  from "../Card/Cards.js";
 import ContentCard  from "../ContentBlock/ContentCards.js";
 
-function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkText, description, buttonLabel, img, alt, primary, dark, dark2, link1, link2}) {
+function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkText, description, buttonLabel, img, alt, primary, dark, dark2, link1, link2, link3}) {
 	if (id == "Projects") { 
 		return (
 		<>
@@ -80,7 +80,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			
 				<InfoWrapper>
 				<h2>{id} </h2>
-			<Card section={"Overview"} img={img}/>
+			<Card section={"Overview"} myTitle={link3}/>
 			
 				</InfoWrapper>
 			</InfoContainer>

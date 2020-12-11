@@ -65,11 +65,7 @@ export const homeObjFour = {
 
 export const examOptimum_overview = {
 	id: "Overview",
-	lightBg: false,
-	lightText: false,
-	lightTextDesc: true,
-	topLine: 'About Me',
-	headLine: "Unlimited Transactions with zero fees",
+	link3: "examOptimum",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design.",
 	buttonLabel: "Get Started",
 	imgStart: false,
@@ -100,6 +96,7 @@ export const examOptimum_solutions = {
 
 export const BunBunBakeShop_overview = {
 	id: "Overview",
+	link3: "bake",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -124,6 +121,7 @@ export const BunBunBakeShop_solutions = {
 
 export const IAT_overview = {
 	id: "Overview",
+	link3: "IAT",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -148,6 +146,7 @@ export const IAT_Results = {
 
 export const programming_overview = {
 	id: "Overview",
+	link3: "15112 Term Project",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -172,6 +171,7 @@ export const programming_solutions = {
 
 export const ResearchProject_overview = {
 	id: "Overview",
+	link3: "coffee",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -196,6 +196,7 @@ export const ResearchProject_Results = {
 
 export const Shuttle_overview = {
 	id: "Overview",
+	link3: "shuttle",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -220,6 +221,7 @@ export const Shuttle_solutions = {
 
 export const StemIAT_overview = {
 	id: "Overview",
+	link3: "StemIAT",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -244,6 +246,7 @@ export const StemIAT_Results = {
 
 export const Test_overview = {
 	id: "Overview",
+	link3: "Test",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };

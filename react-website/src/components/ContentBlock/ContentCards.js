@@ -18,7 +18,6 @@ function ContentCards({section, description, link1, link2}) {
               Description={ description }
               Link1 ={ link1 }
               Link2 ={ link2 }
-
             />
             
           </ul>
