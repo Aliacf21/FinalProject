@@ -14,13 +14,14 @@ export const Nav = styled.nav`
 
 
   @media screen and (max-width: 950px) {
-		height: 60px;
+	height: 60px;
   		width: 100%;
-		position: fixed;
-		z-index: 10;Link
+		position: relative;
+		z-index: 0;
 		top: 0;
 		left: 0;
 		background-color: #C4C4C4;
+
 `
 
 export const NavbarContainer = styled.div`

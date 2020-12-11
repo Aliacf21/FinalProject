@@ -51,12 +51,9 @@ export const homeObjThree = {
 
 export const homeObjFour = {
 	id: "Contact",
-	lightBg: false,
-	lightText: false,
-	lightTextDesc: true,
-	topLine: 'About Me',
-	headLine: "Unlimited Transactions with zero fees",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design.",
+	description: "aliacf@gmail.com",
+	link1: "https://www.linkedin.com/in/alia-friedman-827a8572/",
+	link2: "https://github.com/Aliacf21/",
 	buttonLabel: "Get Started",
 	imgStart: false,
 	img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cs.cmu.edu%2F~epxing%2Ffig%2FGHC1.jpg&f=1&nofb=1",

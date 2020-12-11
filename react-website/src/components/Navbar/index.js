@@ -3,6 +3,8 @@ import { Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavLogo, 
 import { FaBars } from "react-icons/fa";
 
 const Navbar = ({toggle}) => {
+
+
 	return (
 		<>
 			<Nav>
@@ -14,24 +16,24 @@ const Navbar = ({toggle}) => {
 				
 				<NavMenu>
 
-				<NavLogo to="/">Alia Friedman</NavLogo>
+				<NavLogo to="/" >Alia Friedman</NavLogo>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="About Me">About Me</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} to="About Me">About Me</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} to="Projects">Projects</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Research">Research</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} to="Research">Research</NavLinks>
 					</NavItem>
 
 					
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-10} duration={500} to="Contact">Contact</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} to="Contact">Contact</NavLinks>
 					</NavItem>
 
 					<NavItem>

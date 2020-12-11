@@ -19,7 +19,7 @@ function Project() {
 
 	return (
 		<>
-		<Sidebar isOpen={isOpen} toggle={toggle}/>
+		<Sidebar section={"Research"} isOpen={isOpen} toggle={toggle}/>
 			<ResearchNavBar toggle={toggle}/>
 			<InfoSection  {...ResearchProject_overview}/>
 			<InfoSection  {...ResearchProject_Research_Question}/>

@@ -118,12 +118,13 @@ h2 {
 @media only screen and (max-width: 950px) {
   h2 {
     margin-left: 15px;
+    display: relative;
   }
 }
 
 @media only screen and (max-width: 950px) {
   .cards2 {
-    margin-top: 75px;
+    
   }
 }
 

@@ -14,6 +14,7 @@ export const SidebarContainer = styled.aside`
 	align-items: center;
 	top: 0;
 	left: 0;
+	
 	transition: 0.3s ease-in-out;
 	opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
 	top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
@@ -49,6 +50,24 @@ export const SidebarMenu = styled.ul`
 	}
 `
 export const SidebarLink = styled(LinkS)`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+
+	&:hover {
+		font-weight: bold;
+		transition: 0.2s ease-in-out;
+	}
+`
+
+export const SidebarLinkR = styled(LinkR)`
 	display: flex;
 	align-items: center;
 	justify-content: center;

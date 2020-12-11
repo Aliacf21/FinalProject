@@ -19,7 +19,7 @@ function Project() {
 
 	return (
 		<>
-		<Sidebar isOpen={isOpen} toggle={toggle}/>
+		<Sidebar section={"Project"} isOpen={isOpen} toggle={toggle}/>
 			<ProjectNavBar toggle={toggle}/>
 			<InfoSection  {...BunBunBakeShop_overview}/>
 			<InfoSection  {...BunBunBakeShop_problems}/>
