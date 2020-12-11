@@ -15,7 +15,7 @@ import Icon8 from "../../images/qatar.png"
 
 
 
-function Cards({section, myTitle}) {
+function Cards({section, description, myTitle}) {
 
 
   if (section === "Overview" && myTitle==="examOptimum") {
@@ -29,7 +29,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon1}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }
             />
 
           </ul>
@@ -52,9 +52,8 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon2}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
-            />
-
+              Description= { description }            
+              />
           </ul>
 
         </div>
@@ -75,8 +74,8 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon3}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
-            />
+              Description= { description }                    
+              />
 
           </ul>
 
@@ -98,7 +97,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon4}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }            
             />
 
           </ul>
@@ -121,9 +120,8 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon5}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
-            />
-
+                Description= { description }    
+              />
           </ul>
 
         </div>
@@ -144,7 +142,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon6}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }            
             />
 
           </ul>
@@ -167,7 +165,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon7}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }            
             />
 
           </ul>
@@ -190,7 +188,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon8}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }            
             />
 
           </ul>
@@ -213,7 +211,7 @@ function Cards({section, myTitle}) {
             <CardItem
               src={Icon4}
               title="ExamOptimum"
-              Description="Project to help proffesors optimizing their exam scheduling for Carnegie Mellon University"
+              Description= { description }            
             />
 
           </ul>

@@ -80,7 +80,7 @@ function InfoSection({lightBg, id, imgStart, topLine, headLine, lightText, darkT
 			
 				<InfoWrapper>
 				<h2>{id} </h2>
-			<Card section={"Overview"} myTitle={link3}/>
+			<Card section={"Overview"} myTitle={link3} description={description}/>
 			
 				</InfoWrapper>
 			</InfoContainer>
