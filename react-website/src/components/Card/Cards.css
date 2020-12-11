@@ -137,6 +137,12 @@
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .cards__item__link {
+    height: 300px;
+  }
+}
+
 
 
 
