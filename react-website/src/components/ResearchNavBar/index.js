@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavLogo, NavLogoMobile, NavBtn, NavBtnLink } from "./NavbarElements.js";
 import { FaBars } from "react-icons/fa";
 
+//If the page is a project -> Render project nav bar
 const ProjectNavBar = ({toggle}) => {
 	return (
 		<>
@@ -9,6 +10,7 @@ const ProjectNavBar = ({toggle}) => {
 				<NavbarContainer>
 				<MobileIcon onClick={toggle}>
 					<FaBars />
+					//Link back to the main page
 					<NavLogoMobile to="/">Alia Friedman</NavLogoMobile>
 				</MobileIcon>
 				

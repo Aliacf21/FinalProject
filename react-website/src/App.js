@@ -1,5 +1,6 @@
 import './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop.js';
 
 import Home from "./pages";
 import examOptimum from "./pages/examOptimum";
@@ -17,7 +18,8 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <Router>
+    <Router> 
+    <ScrollToTop />
     	<Switch>
     		<Route path='/' exact component={Home} />
     		<Route path='/examOptimum' exact component={examOptimum} />

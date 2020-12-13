@@ -4,6 +4,7 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 function Sidebar({section, isOpen, toggle}) {
 
+
 	//If the page is a project page -> Render a project nav bar with the custom links: Overview, Problems, Process, Solution
 	if (section === "Project") {
 		return (
