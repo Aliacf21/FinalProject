@@ -17,11 +17,11 @@ const ProjectNavBar = ({toggle}) => {
 				<NavLogo to="/">Alia Friedman</NavLogo>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Overview">Overview</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Overview">Overview</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Research Question">Research Question</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Research Question">Research Question</NavLinks>
 					</NavItem>
 
 					<NavItem>

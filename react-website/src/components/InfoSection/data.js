@@ -88,7 +88,7 @@ export const IAT_overview = {
 };
 
 export const IAT_Research_Question = {
-	id: "Reserch Question",
+	id: "Research Question",
 	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
 
 };
@@ -147,7 +147,7 @@ export const ResearchProject_overview = {
 };
 
 export const ResearchProject_Research_Question = {
-	id: "Reserch Question",
+	id: "Research Question",
 	description: "Many people rely on coffee in their daily lives as a stimulant. According to a study commissioned by the National Coffee Association, 64% of American adults report they drink coffee every day with an average consumption of 3.1 cups per day. While direct intake of caffeine is known to cause physiological arousal, studies show that environmental cues related to coffee also affect people’s thoughts and behaviors (Chan & Maglio, 2019). Our research sought to explore the effects of coffee cues on people’s cognitive performance. Understanding this problem allows us to learn more about enhancing performance without using caffeine or other central neural system stimuli. Our study also examined how reliance and impression of coffee can influence our performance."
 
 };
@@ -205,7 +205,7 @@ export const StemIAT_overview = {
 };
 
 export const StemIAT_Research_Question = {
-	id: "Reserch Question",
+	id: "Research Question",
 	description: "Do men and women in United States, Qatar and Saudi Arabia differ in their implicit associations between gender and STEM?"
 
 };

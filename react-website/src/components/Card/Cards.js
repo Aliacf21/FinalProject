@@ -179,7 +179,7 @@ function Cards({section, role, tools, team, description, alt, myTitle}) {
           <ul className='cards__items'>
             <CardItem
               src={Icon8}
-              title="Research to examine the implicit associations between Liberal Arts and STEM"
+              title="Implicit associations between Liberal Arts/STEM "
               Role = {role}
               Tools = {tools}
               Team={team}

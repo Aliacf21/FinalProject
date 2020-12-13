@@ -19,21 +19,21 @@ const Navbar = ({toggle}) => {
 				<NavLogo to="/" >Alia Friedman</NavLogo>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} to="About Me">About Me</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} offset={-10} to="About Me">About Me</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} to="Projects">Projects</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} duration={500} offset={-100} to="Projects">Projects</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} to="Research">Research</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} offset={-100} to="Research">Research</NavLinks>
 					</NavItem>
 
 					
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} to="Contact">Contact</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true}  duration={500} offset={-300} to="Contact">Contact</NavLinks>
 					</NavItem>
 
 					<NavItem>

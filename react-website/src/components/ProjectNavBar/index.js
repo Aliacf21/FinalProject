@@ -18,15 +18,15 @@ const ProjectNavBar = ({toggle}) => {
 
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Overview">Overview</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Overview">Overview</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Problems">Problems</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Problems">Problems</NavLinks>
 					</NavItem>
 
 					<NavItem>
-						<NavLinks activeClass="active" spy={true} smooth={true} offset={-0} duration={500} to="Process">Process</NavLinks>
+						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Process">Process</NavLinks>
 					</NavItem>
 
 					<NavItem>
