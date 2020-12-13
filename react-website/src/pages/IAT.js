@@ -4,7 +4,7 @@ import ResearchNavBar from "../components/ResearchNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import { IAT_overview, IAT_Research_Question, IAT_Experiment, IAT_Results} from "../components/InfoSection/Data";
+import { IAT_overview, IAT_Research_Question, IAT_Experiment, IAT_Results} from "../components/InfoSection/data";
 
 
 

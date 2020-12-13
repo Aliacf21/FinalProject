@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar"
 import resume from "../resume/Resume08.pdf";
 
 
-import {BunBunBakeShop_overview, BunBunBakeShop_problems, BunBunBakeShop_process, BunBunBakeShop_solutions} from "../components/InfoSection/Data";
+import {BunBunBakeShop_overview, BunBunBakeShop_problems, BunBunBakeShop_process, BunBunBakeShop_solutions} from "../components/InfoSection/data";
 
 
 

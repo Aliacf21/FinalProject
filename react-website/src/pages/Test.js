@@ -4,7 +4,7 @@ import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import { Test_overview, Test_Research_Question, Test_Experiment, Test_Results} from "../components/InfoSection/Data";
+import { Test_overview, Test_Research_Question, Test_Experiment, Test_Results} from "../components/InfoSection/data";
 
 
 

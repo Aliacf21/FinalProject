@@ -4,7 +4,7 @@ import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import {BunBunBakeShop_overview, BunBunBakeShop_problems, BunBunBakeShop_process, BunBunBakeShop_solutions} from "../components/InfoSection/Data";
+import {BunBunBakeShop_overview, BunBunBakeShop_problems, BunBunBakeShop_process, BunBunBakeShop_solutions} from "../components/InfoSection/data";
 
 
 

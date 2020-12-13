@@ -4,7 +4,7 @@ import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import {Shuttle_overview, Shuttle_problems, Shuttle_process, Shuttle_solutions} from "../components/InfoSection/Data";
+import {Shuttle_overview, Shuttle_problems, Shuttle_process, Shuttle_solutions} from "../components/InfoSection/data";
 
 
 

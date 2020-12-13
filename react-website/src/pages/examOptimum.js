@@ -4,7 +4,7 @@ import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import {examOptimum_overview, examOptimum_problems, examOptimum_process, examOptimum_solutions} from "../components/InfoSection/Data";
+import {examOptimum_overview, examOptimum_problems, examOptimum_process, examOptimum_solutions} from "../components/InfoSection/data";
 
 
 

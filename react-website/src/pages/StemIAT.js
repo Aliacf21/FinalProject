@@ -4,7 +4,7 @@ import ResearchNavBar from "../components/ResearchNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
-import { StemIAT_overview, StemIAT_Research_Question, StemIAT_Experiment, StemIAT_Results} from "../components/InfoSection/Data";
+import { StemIAT_overview, StemIAT_Research_Question, StemIAT_Experiment, StemIAT_Results} from "../components/InfoSection/data";
 
 
 
