@@ -43,7 +43,7 @@ export const examOptimum_problems = {
 
 export const examOptimum_process = {
 	id: "Process",
-	description: "My first step was to conduct user interviews with professors about this problem and the iteratively design several interfaces. I tested each interface and after receiving their feedback, I built the application using student data.  AJ and I, created three different versions over the website over Spring 2019 to Winter 2020."
+	description: "My first step was to conduct user interviews with professors about this problem and then iteratively design several interfaces. I tested each interface and after receiving their feedback, I built the application using student data.  AJ and I created three different versions of the website over Spring 2019 to Winter 2020."
 
 };
 
@@ -72,7 +72,7 @@ export const BunBunBakeShop_problems = {
 
 export const BunBunBakeShop_process = {
 	id: "Process",
-	description: "When choosing a design, I tried to keep in mind the focus of the application should getting users to the product page as quickly as possible and making checkout easy. Therefore, I included a large button for “Shop Now” as well as making the image on the home screen a link to the product page. Another factor I tried to consider was that the product (i.e. baked goods) is highly photogenic so I included large photos of the products in order to entice users. I also tried to work within the constraints of the existing product language. For example, a card interface is extremely common when online shopping. From there I tried to experiment with different card formatting, fonts and colors. "
+	description: "When choosing a design, I tried to keep in mind that the focus of the application should be getting users to the product page as quickly as possible and making checkout easy. Therefore, I included a large button for “Shop Now” as well as making the image on the home screen a link to the product page. Another factor I tried to consider was that the product (i.e. baked goods) is highly photogenic so I included large photos of the products in order to entice users. I also tried to work within the constraints of the existing product language. For example, a card interface is extremely common when online shopping. From there I tried to experiment with different card formatting, fonts and colors. "
 
 };
 
@@ -87,7 +87,7 @@ export const IAT_overview = {
 	id: "Overview",
 	link3: "IAT",
 	team: "Erik Thiessen (PI) | Aisha Nazir (Research Assistant)",
-	role: "Research Assistant",
+	role: "Head Research Assistant",
 	tools: "PEBL", 
 	alt: "Pittsburgh skyline",
 	title: "Implicit Association Task",
@@ -97,7 +97,7 @@ export const IAT_overview = {
 
 export const IAT_Research_Question = {
 	id: "Research Question",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "Do men and women in the middle east and america differ in their implicit attitudes about gender?"
 
 };
 
@@ -128,13 +128,13 @@ export const programming_overview = {
 
 export const programming_problems = {
 	id: "Problems",
-	description: "For Carnegie Mellon’s introductory programming course, we are required to create a term project. Feedback is essential when learning, however it not all parents have the time to help teach their children.  Therefore, I decided to focus my term project on creating a python application which would give children feedback if the number of puppies they counted was correct or not. "
+	description: "For Carnegie Mellon’s introductory programming course, we are required to create a term project. Feedback is essential when learning, however not all parents have the time to help teach their children.  Therefore, I decided to focus my term project on creating a python application which would give children feedback if the number of puppies they counted was correct or not. "
 
 };
 
 export const programming_process = {
 	id: "Process",
-	description: "The application worked by having users draw on the screen using a mousepad. The screen was divided into invisible grid. Each area on the grid corresponded to a 0/1 in a matrix. If a student drew in that area of the grid, the matrix row/column would be set to 1. Afterwards, the matrix was checked against other matrixes using Euclidean distance and then classified based on what majority of its three closest neighbors were."
+	description: "The application worked by having users draw on the screen using a mousepad. The screen was divided into an invisible grid. Each area on the grid corresponded to a 0/1 in a matrix. If a student drew in that area of the grid, the matrix row/column would be set to 1. Afterwards, the matrix was checked against other matrixes using Euclidean distance and then classified based on what majority of its three closest neighbors were."
 
 };
 
@@ -150,8 +150,8 @@ export const ResearchProject_overview = {
 	link3: "coffee",
 	alt: "coffe cup",
 	tools: "Figma",
-	role: "Researcher",
-	team: "Qinye Yu | Crystal Lin",
+	role: "Researcher - worked primarily on analysis",
+	team: "Qinye Yu (Researcher) | Crystal Lin (Researcher)",
 	title: "Research Project to Study the Effects of Coffe Visual cue on Attention",
 	description: "Our research sought to explore the effects of coffee cues on people’s cognitive performance."
 
@@ -181,7 +181,7 @@ export const Shuttle_overview = {
 	alt: "Picture of moorewood",
 	tools: "Figma",
 	title: "CMU Airport Transportation",
-	role: "User Researcher",
+	role: "User Researcher - primarily conducted user interviews",
 	team: "Dean Dijour | John Han | Bruce Liu | Kathryn Phelps",
 	description: "We conducted contextual interviews with 5 CMU students, and launched a survey with nearly 30 responses, to better gauge how students viewed the transportation situation to the Pittsburgh International Airport. "
 
@@ -213,7 +213,7 @@ export const StemIAT_overview = {
 	tools: "PEBL", 
 	alt: "Doha Skyline",
 	title: "Implicit associations between Liberal Arts/STEM ",
-	description: "Research project which examines gender bias in the middle east vs. United states concerning liberal arts and stem"
+	description: "Research project which examines gender bias in the middle east vs. United States concerning liberal arts and stem"
 
 };
 
@@ -249,7 +249,7 @@ export const Test_overview = {
 
 export const Test_Research_Question = {
 	id: "Problems",
-	description: "While there are PEBL library code for the Implicit association Task in Romance languages and Chinese. There was no pre-existing code which could support right-to-left languages such as Arabic or Hebrew. We wanted to design an Arabic version of the IAT to administer in Qatar and Saudi Arabia. "
+	description: "While there are PEBL library code for the Implicit Association Task in Romance languages and Chinese. There was no pre-existing code which could support right-to-left languages such as Arabic or Hebrew. We wanted to design an Arabic version of the IAT to administer in Qatar and Saudi Arabia. "
 
 };
 
