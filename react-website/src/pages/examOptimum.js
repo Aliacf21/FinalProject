@@ -7,7 +7,7 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import {examOptimum_overview, examOptimum_problems, examOptimum_process, examOptimum_solutions} from "../components/InfoSection/data";
 
 
-
+//ExamOptimum page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +19,7 @@ function Project() {
 
 	return (
 		<>
+		//Mobile navbar, regular nav bar, overview, problems, process, solutions content block
 		<Sidebar section={"Project"} isOpen={isOpen} toggle={toggle}/>
 			<ProjectNavBar toggle={toggle}/>
 			<InfoSection  {...examOptimum_overview}/>

@@ -7,7 +7,7 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import { programming_overview, programming_problems, programming_process, programming_solutions} from "../components/InfoSection/data";
 
 
-
+//Renders 15112 page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)

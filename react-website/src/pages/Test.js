@@ -7,7 +7,7 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import { Test_overview, Test_Research_Question, Test_Experiment, Test_Results} from "../components/InfoSection/data";
 
 
-
+//Renders IAT test page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)

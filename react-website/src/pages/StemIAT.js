@@ -7,7 +7,7 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import { StemIAT_overview, StemIAT_Research_Question, StemIAT_Experiment, StemIAT_Results} from "../components/InfoSection/data";
 
 
-
+//Renders Stem IAT page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)

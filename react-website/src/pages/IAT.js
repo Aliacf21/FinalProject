@@ -7,11 +7,10 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import { IAT_overview, IAT_Research_Question, IAT_Experiment, IAT_Results} from "../components/InfoSection/data";
 
 
-
+//IAT page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)
-
 	const toggle = () => {
 		setIsOpen(!isOpen)
 	}

@@ -7,11 +7,10 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import {Shuttle_overview, Shuttle_problems, Shuttle_process, Shuttle_solutions} from "../components/InfoSection/data";
 
 
-
+//Renders Shuttle page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)
-
 	const toggle = () => {
 		setIsOpen(!isOpen)
 	}

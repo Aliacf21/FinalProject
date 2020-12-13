@@ -6,10 +6,10 @@ import { homeObjOne, homeObjTwo,  homeObjThree, homeObjFour} from "../components
 
 
 
+//Home page - loads in about me, project, research tiles and contact section
 function Home() {
 	
 	const [isOpen, setIsOpen] = useState(false)
-
 	const toggle = () => {
 		setIsOpen(!isOpen)
 	}

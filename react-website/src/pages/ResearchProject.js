@@ -7,7 +7,7 @@ import ContentCard from "../components/ContentBlock/ContentCards";
 import { ResearchProject_overview, ResearchProject_Research_Question, ResearchProject_Experiment, ResearchProject_Results} from "../components/InfoSection/data";
 
 
-
+//Renders Research project page
 function Project() {
 	
 	const [isOpen, setIsOpen] = useState(false)
