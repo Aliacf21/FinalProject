@@ -4,6 +4,7 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 function Sidebar({section, isOpen, toggle}) {
 
+	//If the page is a project page -> Render a project nav bar with the custom links: Overview, Problems, Process, Solution
 	if (section === "Project") {
 		return (
 		<SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -12,7 +13,6 @@ function Sidebar({section, isOpen, toggle}) {
 			</Icon>
 		<SidebarWrapper>
 			<SidebarMenu>
-
 				<SidebarLink activeClass="active" spy={true} smooth={true} duration={500} to="Overview" onClick={toggle}>
 					Overview
 				</SidebarLink>
@@ -36,8 +36,7 @@ function Sidebar({section, isOpen, toggle}) {
 	)
 	}
 
-	
-
+	//If the page is a Research page -> Render a project nav bar with the custom links: Overview, Research Question, Experiment, Results
 	else if (section === "Research") {
 		return (
 		<SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -62,19 +61,14 @@ function Sidebar({section, isOpen, toggle}) {
 				<SidebarLink  activeClass="active" spy={true} smooth={true} duration={500} to="Results" onClick={toggle}>
 					Results
 				</SidebarLink>
-
-		
 			</SidebarMenu>
-		
-
-
 		</SidebarWrapper>
 		</SidebarContainer>
 	)
 	}
 		
 	
-
+	//If the page is the home page -> Render a project nav bar with the custom links: About Me, Projects, Research, Contact, Resume
 	else {
 
 	return (
