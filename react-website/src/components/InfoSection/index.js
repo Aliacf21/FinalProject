@@ -6,7 +6,7 @@ import ResearchCards from "../ResearchCard/ResearchCards.js";
 import Card  from "../Card/Cards.js";
 import ContentCard  from "../ContentBlock/ContentCards.js";
 
-function InfoSection({role, tools, team, description, alt, id, link1, link2, link3}) {
+function InfoSection({role, tools, team, description, alt, id, link1, link2, link3, hasLink}) {
 	if (id == "Projects") { 
 		return (
 		<>
@@ -69,7 +69,7 @@ function InfoSection({role, tools, team, description, alt, id, link1, link2, lin
 			<InfoContainer id={id}>
 				<InfoWrapper>
 					<h2>{id} </h2>
-					<ContentCard section={id} description={description}/>
+					<ContentCard section={id} description={description} hasLink={hasLink}/>
 				</InfoWrapper>
 			</InfoContainer>
 			

@@ -21,6 +21,22 @@ function ContentCardItem(props) {
   );
 }
 
+if (props.hasLink === true) {
+  return (
+    <>
+      <li className='cards__item2'>
+        <div className='cards__item__link2'>
+           <div className='cards__item__info2'>
+            <p className='cards__item__text2' style={{ color: "black"}}><a href ={props.Description} style = {{ color: "black", textDecoration: "none" }}>{props.Description}</a></p>
+          </div>
+
+             
+        </div>
+      </li>
+    </>
+  );
+}
+
 else {
   return (
     <>

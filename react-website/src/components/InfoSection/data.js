@@ -44,8 +44,8 @@ export const examOptimum_process = {
 
 export const examOptimum_solutions = {
 	id: "Solution",
-	description: "Our solution: https://exam-optimum.mcs.cmu.edu"
-
+	description: "https://exam-optimum.mcs.cmu.edu",
+	hasLink: true
 };
 
 export const BunBunBakeShop_overview = {
@@ -72,7 +72,8 @@ export const BunBunBakeShop_process = {
 
 export const BunBunBakeShop_solutions = {
 	id: "Solution",
-	description: "Website: https://aliacf21.github.io/ReactMultiPageWebsite/"
+	description: "https://aliacf21.github.io/ReactMultiPageWebsite/",
+	hasLink: true
 
 };
 
@@ -131,7 +132,8 @@ export const programming_process = {
 
 export const programming_solutions = {
 	id: "Solution",
-	description: "Solution: https://github.com/Aliacf21/112-Term-Project"
+	description: "https://github.com/Aliacf21/112-Term-Project",
+	hasLink: true
 
 };
 
