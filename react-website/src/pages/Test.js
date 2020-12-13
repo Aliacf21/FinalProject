@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
-import ResearchNavBar from "../components/ResearchNavBar/index";
+import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
 import ContentCard from "../components/ContentBlock/ContentCards";
 
@@ -19,9 +19,9 @@ function Project() {
 
 	return (
 		<>
-		<Sidebar section={"Research"} isOpen={isOpen} toggle={toggle}/>
+		<Sidebar section={"Project"} isOpen={isOpen} toggle={toggle}/>
 			<Sidebar isOpen={isOpen} toggle={toggle}/>
-			<ResearchNavBar toggle={toggle}/>
+			<ProjectNavBar toggle={toggle}/>
 			<InfoSection  {...Test_overview}/>
 			<InfoSection  {...Test_Research_Question}/>
 			<InfoSection  {...Test_Experiment}/>

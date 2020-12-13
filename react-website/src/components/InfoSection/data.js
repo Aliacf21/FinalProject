@@ -32,19 +32,19 @@ export const examOptimum_overview = {
 
 export const examOptimum_problems = {
 	id: "Problems",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "When I was a biology major, I noticed that professors would schedule all their exams during the course of a couple of days. After interviewing the professors, I realized this occurred because they weren’t aware of when other professors were scheduling their exams. So, I decided to build a web application which could enable professors to help pick exam days to minimize conflict."
 
 };
 
 export const examOptimum_process = {
 	id: "Process",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "My first step was to conduct user interviews with professors about this problem and the iteratively design several interfaces. I tested each interface and after receiving their feedback, I built the application using student data.  AJ and I, created three different versions over the website over Spring 2019 to Winter 2020."
 
 };
 
 export const examOptimum_solutions = {
 	id: "Solution",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "Our solution: https://exam-optimum.mcs.cmu.edu"
 
 };
 
@@ -60,19 +60,19 @@ export const BunBunBakeShop_overview = {
 
 export const BunBunBakeShop_problems = {
 	id: "Problems",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "In this project I prototyped several high-fidelity screens which for Bun Bun Bake Shop and the flow of the website. Build off of these prototypes, I implemented a react based web application."
 
 };
 
 export const BunBunBakeShop_process = {
 	id: "Process",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "When choosing a design, I tried to keep in mind the focus of the application should getting users to the product page as quickly as possible and making checkout easy. Therefore, I included a large button for “Shop Now” as well as making the image on the home screen a link to the product page. Another factor I tried to consider was that the product (i.e. baked goods) is highly photogenic so I included large photos of the products in order to entice users. I also tried to work within the constraints of the existing product language. For example, a card interface is extremely common when online shopping. From there I tried to experiment with different card formatting, fonts and colors. "
 
 };
 
 export const BunBunBakeShop_solutions = {
 	id: "Solution",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "Website: https://aliacf21.github.io/ReactMultiPageWebsite/"
 
 };
 
@@ -119,19 +119,19 @@ export const programming_overview = {
 
 export const programming_problems = {
 	id: "Problems",
-	description: "interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "For Carnegie Mellon’s introductory programming course, we are required to create a term project. Feedback is essential when learning, however it not all parents have the time to help teach their children.  Therefore, I decided to focus my term project on creating a python application which would give children feedback if the number of puppies they counted was correct or not. "
 
 };
 
 export const programming_process = {
 	id: "Process",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "The application worked by having users draw on the screen using a mousepad. The screen was divided into invisible grid. Each area on the grid corresponded to a 0/1 in a matrix. If a student drew in that area of the grid, the matrix row/column would be set to 1. Afterwards, the matrix was checked against other matrixes using Euclidean distance and then classified based on what majority of its three closest neighbors were."
 
 };
 
 export const programming_solutions = {
 	id: "Solution",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	description: "Solution: https://github.com/Aliacf21/112-Term-Project"
 
 };
 
@@ -234,20 +234,20 @@ export const Test_overview = {
 };
 
 export const Test_Research_Question = {
-	id: "Reserch Question",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	id: "Problems",
+	description: "While there are PEBL library code for the Implicit association Task in Romance languages and Chinese. There was no pre-existing code which could support right-to-left languages such as Arabic or Hebrew. We wanted to design an Arabic version of the IAT to administer in Qatar and Saudi Arabia. "
 
 };
 
 export const Test_Experiment = {
-	id: "Experiment",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	id: "Process",
+	description: "The original code used pebl textboxes objects to display instructions. It relied on users swapping out the contents of the .txt file which came along with the code and entering in line by line that text they wanted displayed in the program. I changed how the contents of the .txt file were handled so that the lines were read in as images. Users now entered the file path of pictures they wanted displayed. "
 
 };
 
 export const Test_Results = {
-	id: "Results",
-	description: "I am a senior at Carnegie Mellon University in cognitive science and human-computer interaction with a minor in computer science. I am passionate about research, software, and user-centered design."
+	id: "Solution",
+	description: "The refactored version of the code now allows users to take screenshots of the text they want displayed and have it rendered in place of where the pebl textboxes were originally. With this changed any language version of the IAT is now supported."
 
 };
 

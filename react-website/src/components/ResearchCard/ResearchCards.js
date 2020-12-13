@@ -24,7 +24,7 @@ function ResearchCards({section}) {
               src={Icon2}              
               path='/StemIAT'
               title = "Stem IAT"
-              Description="Research project to test gender associations on science in United States, Qatar, Saudi Arabia"
+              Description="Research project to test gender associations with science in United States, Qatar, Saudi Arabia"
             />
 
             </ul>
@@ -39,7 +39,7 @@ function ResearchCards({section}) {
               src={Icon4}
               path='/ResearchProject'
               title = "Research Project"
-              Description="Effects of visual coffee cues on cognitive preformance"
+              Description="Effects of visual coffee cues on cognitive performance "
             />
 
             

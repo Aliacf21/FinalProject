@@ -28,6 +28,8 @@ function ContentCards({section, description, link1, link2}) {
     </div>
   );
 }
+
+
  else {
 
   return (
@@ -36,6 +38,7 @@ function ContentCards({section, description, link1, link2}) {
         <div className='cards__wrapper2'>
           <ul className='cards__items2'>
             <ContentCardItem
+              
               Section = { section }
               Description={ description }
               

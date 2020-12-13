@@ -1,10 +1,10 @@
 import React from 'react'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, SidebarLinkR } from "./SidebarElements.js";
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarLinkR } from "./SidebarElements.js";
 
 
 function Sidebar({section, isOpen, toggle}) {
 
-	if (section == "Project") {
+	if (section === "Project") {
 		return (
 		<SidebarContainer isOpen={isOpen} onClick={toggle}>
 			<Icon onClick={toggle}>
@@ -38,7 +38,7 @@ function Sidebar({section, isOpen, toggle}) {
 
 	
 
-	else if (section == "Research") {
+	else if (section === "Research") {
 		return (
 		<SidebarContainer isOpen={isOpen} onClick={toggle}>
 			<Icon onClick={toggle}>
