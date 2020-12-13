@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavLogo, NavLogoMobile, NavBtn, NavBtnLink } from "./NavbarElements.js";
 import { FaBars } from "react-icons/fa";
 
+//Nav bar for project pages -> rendrs Overview, Problems, Process, Solutions
 const ProjectNavBar = ({toggle}) => {
 	return (
 		<>
@@ -15,7 +16,6 @@ const ProjectNavBar = ({toggle}) => {
 				<NavMenu>
 
 				<NavLogo to="/">Alia Friedman</NavLogo>
-
 
 					<NavItem>
 						<NavLinks activeClass="active" spy={true} smooth={true} offset={-200} duration={500} to="Overview">Overview</NavLinks>

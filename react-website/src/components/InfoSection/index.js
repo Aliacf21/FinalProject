@@ -4,6 +4,8 @@ import ResearchCards from "../ResearchCard/ResearchCards.js";
 import Card  from "../Card/Cards.js";
 import ContentCard  from "../ContentBlock/ContentCards.js";
 
+//Seperate the different contents sections into: Project tile section, Research project tile section, About Me, Contact, and overview. 
+//The rest of the sections only contain paragraphs
 function InfoSection({role, tools, team, description, alt, id, link1, link2, link3, hasLink, title}) {
 	if (id == "Projects") { 
 		return (

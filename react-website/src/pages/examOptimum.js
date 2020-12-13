@@ -19,7 +19,6 @@ function Project() {
 
 	return (
 		<>
-		//Mobile navbar, regular nav bar, overview, problems, process, solutions content block
 		<Sidebar section={"Project"} isOpen={isOpen} toggle={toggle}/>
 			<ProjectNavBar toggle={toggle}/>
 			<InfoSection  {...examOptimum_overview}/>

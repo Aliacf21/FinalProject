@@ -1,11 +1,9 @@
 import React from 'react';
 import './ContentCards.css';
 import ContentCardItem from './ContentCardItem';
-import Icon1 from "../../images/IAT.png"
-import Icon2 from "../../images/qatar.png"
-import Icon3 from "../../images/arabic.png"
-import Icon4 from "../../images/coffee.png"
 
+//Seperate out content cards into contact, content cards containing links, and regular content cards only containing text
+//Cards are similar - just deals with link formating issues 
 function ContentCards({section, description, link1, link2, hasLink}) {
   if (section === "Contact") {
   return (
@@ -18,6 +16,7 @@ function ContentCards({section, description, link1, link2, hasLink}) {
               Description={ description }
               Link1 ={ link1 }
               Link2 ={ link2 }
+              path='/'
             />
             
           </ul>
@@ -40,12 +39,9 @@ if (hasLink === true) {
               hasLink = { hasLink }
               Description={ description }
             />
-            
           </ul>
-
         </div>
       </div>
-    
     </div>
   );
 }
@@ -59,11 +55,8 @@ if (hasLink === true) {
         <div className='cards__wrapper2'>
           <ul className='cards__items2'>
             <ContentCardItem
-              
               Section = { section }
               Description={ description }
-              
-
             />
             
           </ul>

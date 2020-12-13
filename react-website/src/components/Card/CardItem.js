@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function CardItem(props) {
 
-  //Please come back
+  //card is a tile on the home page
   if (props.Role === "") {
       return (
     <>
@@ -28,11 +28,10 @@ function CardItem(props) {
     </>
   )
 
-
   }
 
-  if (props.Role != "" && props.Team != "") {
-
+  //Card is an overview card and there were teammates
+  if (props.Role !== "" && props.Team !== "") {
   return (
     <>
       <li className='cards__item'>
@@ -59,6 +58,7 @@ function CardItem(props) {
   )
 }
 
+//Card is an overview card and there were no teammates
 else {
   return (
     <>

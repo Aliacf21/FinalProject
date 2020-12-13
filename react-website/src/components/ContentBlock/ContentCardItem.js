@@ -2,6 +2,8 @@ import React from 'react';
 
 
 function ContentCardItem(props) {
+
+  //If card item is the contact me card 
   if (props.Section === "Contact") {
     const email = "mailto: " + props.Description
   return (
@@ -21,6 +23,7 @@ function ContentCardItem(props) {
   );
 }
 
+//If the card item contains a link
 if (props.hasLink === true) {
   return (
     <>
@@ -35,6 +38,7 @@ if (props.hasLink === true) {
   );
 }
 
+//If the card item only contains text
 else {
   return (
     <>
@@ -42,9 +46,7 @@ else {
         <div className='cards__item__link2'>
            <div className='cards__item__info2'>
             <p className='cards__item__text2'>{props.Description} </p>
-          </div>
-
-             
+          </div>      
         </div>
       </li>
     </>

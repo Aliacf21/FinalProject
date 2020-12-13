@@ -15,6 +15,8 @@ import Icon8 from "../../images/qatar.png"
 
 function Cards({section, role, tools, team, description, alt, myTitle, title}) {
 
+  //Image cannot be directly linked and have to be imported in. 
+  //Dictory to look up title and icon
   const x = {
   "examOptimum" : Icon1,
   "15112 Term Project" : Icon2,
@@ -26,6 +28,19 @@ function Cards({section, role, tools, team, description, alt, myTitle, title}) {
   "StemIAT" : Icon8,
 
 }
+
+const y = {
+  "examOptimum" : "/examOptimum",
+  "15112 Term Project" : '/15112',
+  "bake" : '/BunBunBakeShop',
+  "shuttle" : '/Shuttle',
+  "Test" : '/Test',
+  "coffee" : '/ResearchProject',
+  "IAT" : '/IAT',
+  "StemIAT" : "/StemIAT"
+
+}
+  //If the card is an Overview section -> only return one card
   if (section === "Overview") {
     return (
       <div className='cards'>
@@ -40,6 +55,7 @@ function Cards({section, role, tools, team, description, alt, myTitle, title}) {
               Team={team}
               Description= { description }
               alt={alt}
+              path= {y[myTitle]}
             />
           </ul>
         </div>
@@ -49,6 +65,7 @@ function Cards({section, role, tools, team, description, alt, myTitle, title}) {
   }
   
 
+  //If the card is the project section -> return the four project cards
   return (
     <div className='cards'>
       <div className='cards__container'>

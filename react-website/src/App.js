@@ -32,7 +32,6 @@ function App() {
     		<Route path='/ResearchProject' exact component={ResearchProject} />
             <Route path='/Resume' exact component={Resume} />
     	</Switch>
-
     </Router>
   );
 }

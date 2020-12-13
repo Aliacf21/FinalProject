@@ -79,24 +79,24 @@ function Sidebar({section, isOpen, toggle}) {
 			</Icon>
 		<SidebarWrapper>
 			<SidebarMenu>
-				<SidebarLink activeClass="active" spy={true} smooth={true} duration={500} to="About Me" onClick={toggle}>
+				<SidebarLink activeclass="active" spy={true} smooth={true} duration={500} to="About Me" onClick={toggle}>
 					About Me
 				</SidebarLink>
 
-				<SidebarLink activeClass="active" spy={true} smooth={true} duration={500} to="Projects" onClick={toggle}>
+				<SidebarLink activeclass="active" spy={true} smooth={true} duration={500} to="Projects" onClick={toggle}>
 					Projects
 				</SidebarLink>
 
-				<SidebarLink activeClass="active" spy={true} smooth={true} duration={500} to="Research" onClick={toggle}>
+				<SidebarLink activeclass="active" spy={true} smooth={true} duration={500} to="Research" onClick={toggle}>
 					Research
 				</SidebarLink>
 
 
-				<SidebarLink activeClass="active" spy={true} smooth={true} duration={500} to="Contact" onClick={toggle}>
+				<SidebarLink activeclass="active" spy={true} smooth={true} duration={500} to="Contact" onClick={toggle}>
 					Contact
 				</SidebarLink>
 
-				<SidebarLinkR activeClass="active" spy={true} smooth={true} duration={500} to="/Resume" onClick={toggle}>
+				<SidebarLinkR to="/Resume" onClick={toggle}>
 					Resume
 				</SidebarLinkR>
 

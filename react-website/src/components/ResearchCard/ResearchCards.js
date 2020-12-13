@@ -6,9 +6,10 @@ import Icon2 from "../../images/qatar.png"
 import Icon3 from "../../images/arabic.png"
 import Icon4 from "../../images/coffee.png"
 
+
+//Component which returns the research cards -> calls ResearchCardItems
 function ResearchCards({section}) {
   return (
-
     <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -44,10 +45,8 @@ function ResearchCards({section}) {
 
             
           </ul>
-
         </div>
       </div>
-    
     </div>
   );
 }

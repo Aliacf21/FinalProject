@@ -1,3 +1,7 @@
+//
+//Contains all the text which is shown throughout the website.
+// Information is organzied by sections. 
+//Each section contains a description and the other relevent information for that specific block
 
 export const homeObjOne = {
 	id: "Projects",

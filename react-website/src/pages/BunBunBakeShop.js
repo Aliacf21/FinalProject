@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Sidebar from "../components/Sidebar"
 import ProjectNavBar from "../components/ProjectNavBar/index";
 import InfoSection from "../components/InfoSection";
-import ContentCard from "../components/ContentBlock/ContentCards";
 import {BunBunBakeShop_overview, BunBunBakeShop_problems, BunBunBakeShop_process, BunBunBakeShop_solutions} from "../components/InfoSection/data";
 
 
@@ -14,9 +13,9 @@ function Project() {
 		setIsOpen(!isOpen)
 	}
 
+	//Mobile navbar, regular nav bar, overview, problems, process, solutions content block
 	return (
 		<>
-		//Mobile navbar, regular nav bar, overview, problems, process, solutions content block
 		<Sidebar section={"Project"} isOpen={isOpen} toggle={toggle}/>
 			<ProjectNavBar toggle={toggle}/>
 			<InfoSection  {...BunBunBakeShop_overview}/>
