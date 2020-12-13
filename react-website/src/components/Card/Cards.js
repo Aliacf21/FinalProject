@@ -13,16 +13,28 @@ import Icon8 from "../../images/qatar.png"
 
 
 
-function Cards({section, role, tools, team, description, alt, myTitle}) {
-  if (section === "Overview" && myTitle==="examOptimum") {
+function Cards({section, role, tools, team, description, alt, myTitle, title}) {
+
+  const x = {
+  "examOptimum" : Icon1,
+  "15112 Term Project" : Icon2,
+  "bake" : Icon3,
+  "shuttle" : Icon4,
+  "Test" : Icon5,
+  "coffee" : Icon6,
+  "IAT" : Icon7,
+  "StemIAT" : Icon8,
+
+}
+  if (section === "Overview") {
     return (
       <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={Icon1}
-              title="ExamOptimum"
+              src={ x[myTitle]}
+              title= {title}
               Role = {role}
               Tools = {tools}
               Team={team}
@@ -35,163 +47,7 @@ function Cards({section, role, tools, team, description, alt, myTitle}) {
     </div>
       )
   }
-
-  if (section === "Overview" && myTitle==="15112 Term Project") {
-    return (
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon2}
-              title="15112 Term Project"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}       
-              />
-          </ul>
-        </div>
-      </div>    
-    </div>
-      )
-  }
-
-  if (section === "Overview" && myTitle==="bake") {
-    return (
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon3}
-              title="Bun Bun Bake Shop"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}     
-              />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
-
-  if (section === "Overview" && myTitle==="shuttle") {
-    return (
-
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon4}
-              title="CMU Airport Transportation"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}     
-            />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
-
-   if (section === "Overview" && myTitle==="Test") {
-    return (
-
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon5}
-              title="Programming the English and Arabic version of the IAT"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}
-              />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
-
-   if (section === "Overview" && myTitle==="coffee") {
-    return (
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon6}
-              title="Research Project to Study the Effects of Coffe Visual cue on Attention"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}            
-            />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
-
-   if (section === "Overview" && myTitle==="IAT") {
-    return (
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon7}
-              title="Implicit Association Task"
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}  
-            />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
-
-   if (section === "Overview" && myTitle==="StemIAT") {
-    return (
-
-      <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={Icon8}
-              title="Implicit associations between Liberal Arts/STEM "
-              Role = {role}
-              Tools = {tools}
-              Team={team}
-              Description= { description }
-              alt={alt}   
-            />
-          </ul>
-        </div>
-      </div>
-    </div>
-      )
-  }
+  
 
   return (
     <div className='cards'>

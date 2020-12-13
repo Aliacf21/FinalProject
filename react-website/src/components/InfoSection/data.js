@@ -26,6 +26,7 @@ export const examOptimum_overview = {
 	role: "Project Lead, Full-Stack Engineer",
 	tools: "Python, Flask, Javascript, HTML/CSS",
 	team: "AJ Druck (Full-Stack Engineer) ",
+	title: "ExamOptimum",
 	description: "Together AJ and I built an application designed to help professors choose exam dates that are best for their students based on when their other exams occur",
 	alt: "Randy Pausch bridge"
 };
@@ -53,6 +54,7 @@ export const BunBunBakeShop_overview = {
 	link3: "bake",
 	role: "Designer, Programmer",
 	team: "",
+	title: "Bun Bun Bake Shop",
 	tools: "Figma, Javascript, HTML/CSS, react-bootstrap", 
 	description: "The project centered around understanding stakeholder needs in order to build a website for a small bakery.",
 	alt: "Pumpkin pie"
@@ -84,6 +86,7 @@ export const IAT_overview = {
 	role: "Research Assistant",
 	tools: "PEBL", 
 	alt: "Pittsburgh skyline",
+	title: "Implicit Association Task",
 	description: "We measured implicit gender attitudes using the Implicit Association Task (IAT). The IAT will was administered using PEBL (the Psychology Experiment Building Language), which is a software tool for presenting experimental stimuli and recording participants’ responses to them"
 
 };
@@ -113,6 +116,7 @@ export const programming_overview = {
 	team: "",
 	role: "Programmer",
 	tools: "Python", 
+	title: "15112 Term Project",
 	alt: "a picture of a farm",
 	description: "I used KNN for my term project to classify digits drawn on the computer  in order to foster counting skills"
 
@@ -144,6 +148,7 @@ export const ResearchProject_overview = {
 	tools: "Figma",
 	role: "Researcher",
 	team: "Qinye Yu | Crystal Lin",
+	title: "Research Project to Study the Effects of Coffe Visual cue on Attention",
 	description: "Our research sought to explore the effects of coffee cues on people’s cognitive performance."
 
 };
@@ -171,6 +176,7 @@ export const Shuttle_overview = {
 	link3: "shuttle",
 	alt: "Picture of moorewood",
 	tools: "Figma",
+	title: "CMU Airport Transportation",
 	role: "User Researcher",
 	team: "Dean Dijour | John Han | Bruce Liu | Kathryn Phelps",
 	description: "We conducted contextual interviews with 5 CMU students, and launched a survey with nearly 30 responses, to better gauge how students viewed the transportation situation to the Pittsburgh International Airport. "
@@ -202,6 +208,7 @@ export const StemIAT_overview = {
 	role: "Research Assistant",
 	tools: "PEBL", 
 	alt: "Doha Skyline",
+	title: "Implicit associations between Liberal Arts/STEM ",
 	description: "Research project which examines gender bias in the middle east vs. United states concerning liberal arts and stem"
 
 };
@@ -230,6 +237,7 @@ export const Test_overview = {
 	team: "",
 	role: "Programmer",
 	tools: "PEBL", 
+	title: "Programming the English and Arabic version of the IAT",
 	alt: "Mosque",
 	description: "Refactored code to support Right-to-Left writing system with the IAT"
 

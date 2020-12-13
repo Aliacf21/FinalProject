@@ -29,8 +29,6 @@ if (props.hasLink === true) {
            <div className='cards__item__info2'>
             <p className='cards__item__text2' style={{ color: "black"}}><a href ={props.Description} style = {{ color: "black", textDecoration: "none" }}>{props.Description}</a></p>
           </div>
-
-             
         </div>
       </li>
     </>
